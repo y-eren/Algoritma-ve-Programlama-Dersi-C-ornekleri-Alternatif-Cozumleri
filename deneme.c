@@ -139,5 +139,31 @@ int main()
     return 0;
 } */
 
-/* int mai () */
- 
+/* #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <math.h> */
+
+
+/* char sayi_m[18]; // 10 karakterlik tamsayı + 1 nokta + 6 karakterlik ondalık kısım + 1 terminating
+double sayi = 0.0;
+int i; //döngü tanımlarsanız işinize yarayabilir
+printf("Ondalik sayiyi giriniz: ");
+gets(sayi_m);
+ if(sayi_m[i]=='.')
+ break;
+ for(int j=i-1;j>=0;j--)
+ sayi+=(sayi_m[j]-48)*pow(10,i-1-j);
+ for(int j=i+1;sayi_m[j]!='\0';j++)
+ sayi+=(sayi_m[j]-48)*pow(10,i-j);// sayi_m isimli metni işleyerek içeriğini sayi isimli double değişkene kaydedecek kod
+printf("Metnin sayiya cevrilmis hali: %10.6lf\n", sayi);
+return 0;
+} */
+
+
+/* int main () {
+    char dizi[7] = "deneme";
+     dizi[2] = '?'; 
+    printf(dizi);
+
+} */
